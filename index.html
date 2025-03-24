@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spa Salon</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <div class="primer_contenedor">
+    <div class="contenedor_logo">
+      <img src="Archivos/logocabecera.jpg" alt="LogoSpa">
+    </div>
+
+    <div class="contenedor_redes">
+      <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><img src="Archivos/icono_facebook.jpg" alt="Facebook"></a>
+
+      <a href="https://www.instagram.com/" target="_blank"><img src="Archivos/icono_instagram.jpg" alt="Instagram"></a>
+
+      <a href="https://x.com/?lang=es" target="_blank"><img src="Archivos/icono_twitter.jpg" alt="X"></a>
+
+    </div>
+    <br><br>
+    <div class="contenedor_menu limpiar">
+        <a href="#">GALERIA</a>
+        <a href="#">PRECIOS</a>
+        <a href="#">CONTACTANOS</a>
+        <a href="#">EQUIPO</a>
+      </div>
+
+  </div>
+
+  <div class="contenedor_imagen">
+    <h2>PROMOCIONES DE MARZO</h2>
+    <p>Se acerca la epoca de playa y por eso preparamos estas dos </p>
+    <p>promociones ideales para ti.</p>
+    <br><br>
+    <a href="#" class="btn_rosa">Solicitar Promocion</a>
+    <a href="#" class="btn_transparente">Ver Video</a>
+
+  </div>
+
+  <div class="contenedor_infomacion1">
+
+    <div class="contenedor_texto">
+      <h3>Los productos Science of Beauty</h3>
+      <br>
+      <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, id enim recusandae fugiat, voluptatem neque corrupti nihil alias dolorem odio perspiciatis? Est rerum eligendi ratione laboriosam enim dolore quasi temporibus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, unde soluta. </p>
+
+    </div>
+
+    <div class="contenedor_imagen1">
+    </div>
+
+  </div>
+
+  <div class="contenedor_informacion2 limpiar">
+    <h3>Buscamos tu talento para integrarlos a nuestro equipo</h3>
+    <br>
+    <div class="contenedor_imagen2">
+
+    </div>
+
+    <div class="contenedor_info2">
+      <h4>Puesto de trabajo para recepcionista</h4>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem ullam nulla necessitatibus ipsam soluta inventore ratione quae pariatur in natus tempora molestiae modi enim quia veniam, dicta harum deserunt blanditiis.</p>
+      <br>
+      <h4>Puesto de trabajo para Masajista</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iusto corporis veritatis sapiente animi hic eveniet temporibus rem suscipit eius, perspiciatis consequuntur minima, praesentium libero repudiandae illum. </p>
+      <br>
+      <h4>Puesto de trabajo para Nutriologo</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nulla assumenda beatae! Quae, ipsum soluta unde quos aspernatur modi eum quasi quaerat.</p>
+
+
+    </div>
+    
+
+  </div>
+
+  <div class="contenedor_informacion3 limpiar">
+
+    <div class="contenedor_info3">
+      <h2>Recibe noticias y promociones</h2>
+      <h2>de SPA SALON</h2>
+      <p>Un lugar para consentirte de pies a cabeza</p>
+      <p>Sericio de estetica y Spa personalizado</p>
+      <br>
+      <p><span>TELEFONO:</span> 999 420 8871</p>
+      <p><span>CORREO:</span> info@spasalon.com</p>
+      <br>
+      <form action="loquesea.html"method="post" name="pregunta">
+        <h4>Tu direccion de correo electronico</h4>
+        <br>
+        <input type="email" name="email" id="email" placeholder="tunombre@example.com" class="textos">
+        <br><br>
+        <button type="button" id="btn_enviar" class="btn_negro">Enviar</button>
+      </form>
+      <br>
+      
+    </div>
+
+    <div class="contenedor_video">
+      <h2>Nuestras instalaciones</h2>
+      <br><br><br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/w4qaODLR_Xg?si=XX-vA8Ttn7rPcpQh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+  </div>
+
+  <div class="contenedor_nombre limpiar">
+    <div class="logo2"> <img src="Archivos/logo_spa.png" alt="Logo"></div>
+
+    <div class="nombre">
+      <p><span>NOMBRE DEL ALUMNO:</span> Enrique Alejandro Lopez Cime</p>
+      <p><span>MATERIA:</span> Programacion Web</p>
+      <p><span>GRUPO:</span> 7SB</p>
+    </div>
+
+
+  </div>
+
+  <script>
+    $("#btn_enviar").click(function () {
+      if ($("#email").val().trim() == '') {
+        alert("Por favor, escribe tu correo electronico");
+        $("#email").focus();
+        return 0;
+      }
+      document.pregunta.submit();
+    });
+  </script>
+
+
+</body>
+</html>

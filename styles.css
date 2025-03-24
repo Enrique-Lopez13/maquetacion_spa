@@ -1,0 +1,279 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+  border: 1px red solid;
+}
+
+.margen {
+  padding: 15px;
+}
+
+h2 {
+  
+  color: white;
+  padding: 10px;
+}
+.primer_contenedor {
+  width: 100%;
+  margin: auto;
+  /*border: 1px red solid;*/
+  background-color: #FFF9F1;
+  padding: 15px;
+  border-top: 10px solid #ff3281;
+  display: block;
+}
+
+.contenedor_logo {
+  /*border: 1px red solid;*/
+  width: 200px;
+  float: left;
+  margin-left: 150px;
+}
+
+.contenedor_redes {
+  /*border: 1px red solid;*/
+  width: 200px;
+  float: right;
+  padding: 5px;
+  margin-right: 130px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.contenedor_menu {
+  border: 3px solid black;
+  width: 1200px;
+  margin-left: 150px;
+  padding: 10px;
+  justify-content: space-between;
+  
+}
+
+.contenedor_menu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  margin: 0 100px;
+}
+
+.contenedor_menu a:first-child {
+  margin-left: 100px;
+}
+
+
+.contenedor_imagen {
+  background-image: url(Archivos/fondopiedras.jpg);
+  width: 100%;
+  height: 528px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px;
+  text-align: center;
+}
+
+.contenedor_imagen p {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn_rosa {
+  border: 2px solid #ff3281;
+  background-color: #ff3281;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.btn_transparente {
+  border: 2px solid #ff3281;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  
+}
+
+.contenedor_infomacion1 {
+  max-width: 1200px;
+  padding: 15px;
+  margin: auto;
+  
+}
+
+.contenedor_texto {
+  /*border: 1px red solid;*/
+  padding: 10px;
+  width: 500px;
+  height: 300px;
+  float: left;
+  
+}
+
+.parrafo {
+  line-height: 35px;
+}
+
+.contenedor_imagen1 {
+  background-image: url(Archivos/fotovelas.jpg);
+  width: 500px;
+  height: 300px;
+  float: right;
+}
+
+.limpiar {
+  clear: both;
+}
+
+.contenedor_informacion2 {
+  /*border: 1px red solid;*/
+  background-color: #FFF9F1;
+  height: 100%;
+  padding: 15px;
+  text-align: center;
+  margin: auto;
+
+}
+
+
+.contenedor_imagen2 {
+  background-image: url(Archivos/fotoaromatizante.jpg);
+  /*border: 1px red solid;*/
+  padding: 10px;
+  width: 500px;
+  height: 350px;
+  background-size: cover;
+  display: block;
+  margin-left: 250px;
+  border-radius: 15px;
+  float: left;
+}
+
+.contenedor_info2 {
+  /*border: 1px red solid;*/
+  padding: 10px;
+  width: 500px;
+  display: inline-block;
+  margin-left: -150px;
+  text-align: justify;
+  
+}
+
+.contenedor_info2 p {
+  font-size: 14px;
+  font-family: Arial;
+}
+
+.contenedor_informacion3 {
+  width: 100%;
+  /*border: 1px red solid;*/
+  
+  height: 100%;
+  padding: 15px;
+  
+  margin: auto;
+  
+}
+
+.contenedor_info3 {
+  /*border: 1px solid red;*/
+  padding: 5px;
+  width: 600px;
+  height: 450px;
+  display: inline-block;
+  margin-left: 250px;
+}
+
+
+.contenedor_info3 h2, p {
+  color: black;
+}
+
+span {
+  color: #ff3281;
+  font-weight: bold;
+}
+
+form {
+  border: 3px solid #ff3281;
+  border-radius: 5px;
+  padding: 20px;
+  width: 450px;
+}
+
+.textos {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px gray solid;
+  width: 400px;
+}
+
+.btn_negro {
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  width: 150px;
+  cursor: pointer;
+}
+
+.contenedor_video {
+  /*border: 1px solid red;*/
+  padding: 20px;
+  width: 600px;
+  height: 480px;
+  display: inline-block;
+  margin-left: -50px;
+  text-align: justify;
+}
+
+.contenedor_video h2 {
+  color: black;
+  text-align: justify;
+}
+
+.contenedor_video iframe {
+  border-radius: 10px;
+}
+
+.contenedor_nombre {
+  /*border: 1px red solid;*/
+  width: 100%;
+  height: 220px;
+  background-color: #FFF9F1;
+  border-bottom: 10px solid #ff3281;
+  
+}
+
+.logo2 {
+  /*border: 1px red solid;*/
+  width: 180px;
+  display: inline-block;
+  padding: 25px 10px;
+  margin-left: 250px;
+}
+
+.nombre {
+  /*border: 1px red solid;*/
+  float: right;
+  padding: 10px;
+  margin-right: 250px;
+  margin-top: 50px;
+
+}
